@@ -1,0 +1,200 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local antifling = Instance.new("TextButton")
+local speed = Instance.new("TextButton")
+local antismiteloop = Instance.new("TextButton")
+local admin = Instance.new("TextButton")
+local killgui = Instance.new("TextButton")
+local collide = Instance.new("TextButton")
+local colors = Instance.new("TextButton")
+local infyield = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.573090911, 0, 0.379606903, 0)
+main.Size = UDim2.new(0, 309, 0, 287)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+title.Size = UDim2.new(0, 309, 0, 24)
+title.Font = Enum.Font.SciFi
+title.Text = "Wild Savanna GUI By Ceg#2956"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 14.000
+
+antifling.Name = "antifling"
+antifling.Parent = main
+antifling.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+antifling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antifling.Position = UDim2.new(0.0194174759, 0, 0.120825931, 0)
+antifling.Size = UDim2.new(0, 134, 0, 50)
+antifling.Font = Enum.Font.Fantasy
+antifling.Text = "Anti-Fling"
+antifling.TextColor3 = Color3.fromRGB(0, 0, 0)
+antifling.TextSize = 18.000
+antifling.TextWrapped = true
+antifling.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ntsp0skK"))()
+end)
+
+speed.Name = "speed"
+speed.Parent = main
+speed.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+speed.Position = UDim2.new(0.540453076, 0, 0.11839284, 0)
+speed.Size = UDim2.new(0, 134, 0, 50)
+speed.Font = Enum.Font.Fantasy
+speed.Text = "Speed"
+speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed.TextSize = 18.000
+speed.TextWrapped = true
+speed.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7n9U4UHR"))()
+end)
+
+antismiteloop.Name = "antismiteloop"
+antismiteloop.Parent = main
+antismiteloop.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+antismiteloop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antismiteloop.Position = UDim2.new(0.0219291896, 0, 0.335857511, 0)
+antismiteloop.Size = UDim2.new(0, 134, 0, 50)
+antismiteloop.Font = Enum.Font.Fantasy
+antismiteloop.Text = "Anti-Smite/Loop"
+antismiteloop.TextColor3 = Color3.fromRGB(0, 0, 0)
+antismiteloop.TextSize = 18.000
+antismiteloop.TextWrapped = true
+antismiteloop.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/G40v80YG"))()
+end)
+
+admin.Name = "admin"
+admin.Parent = main
+admin.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+admin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+admin.Position = UDim2.new(0.539728582, 0, 0.333674401, 0)
+admin.Size = UDim2.new(0, 134, 0, 50)
+admin.Font = Enum.Font.Fantasy
+admin.Text = "Wild Savanna Admin"
+admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+admin.TextSize = 18.000
+admin.TextWrapped = true
+admin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QX2vZzyf"))()
+end)
+
+killgui.Name = "killgui"
+killgui.Parent = main
+killgui.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+killgui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+killgui.Position = UDim2.new(0.0219291896, 0, 0.562292635, 0)
+killgui.Size = UDim2.new(0, 134, 0, 50)
+killgui.Font = Enum.Font.Fantasy
+killgui.Text = "Kill GUI                   [By LuaCritic]"
+killgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+killgui.TextSize = 18.000
+killgui.TextWrapped = true
+killgui.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/g9ZGKtMW"))()
+end)
+
+collide.Name = "collide"
+collide.Parent = main
+collide.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+collide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+collide.Position = UDim2.new(0.538593531, 0, 0.561337054, 0)
+collide.Size = UDim2.new(0, 134, 0, 50)
+collide.Font = Enum.Font.Fantasy
+collide.Text = "Water Collide"
+collide.TextColor3 = Color3.fromRGB(0, 0, 0)
+collide.TextSize = 18.000
+collide.TextWrapped = true
+collide.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/E2ZUZcQE"))()
+end)
+
+colors.Name = "colors"
+colors.Parent = main
+colors.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+colors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+colors.Position = UDim2.new(0.0194174536, 0, 0.790026367, 0)
+colors.Size = UDim2.new(0, 134, 0, 50)
+colors.Font = Enum.Font.Fantasy
+colors.Text = "Black & White                                       [LIONS ONLY]"
+colors.TextColor3 = Color3.fromRGB(0, 0, 0)
+colors.TextSize = 18.000
+colors.TextWrapped = true
+colors.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XnX8etNb"))()
+end)
+
+infyield.Name = "infyield"
+infyield.Parent = main
+infyield.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+infyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infyield.Position = UDim2.new(0.537216842, 0, 0.790026367, 0)
+infyield.Size = UDim2.new(0, 134, 0, 50)
+infyield.Font = Enum.Font.Fantasy
+infyield.Text = "Infinite Yield"
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 18.000
+infyield.TextWrapped = true
+infyield.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vQs32Sxj"))()
+end)
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.915857613, 0, 0, 0)
+close.Size = UDim2.new(0, 26, 0, 24)
+close.Font = Enum.Font.GothamBlack
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+main.Visible = false
+openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+openmain.Position = UDim2.new(0.0138181746, 0, 0.454545438, 0)
+openmain.Size = UDim2.new(0, 82, 0, 22)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+open.Size = UDim2.new(0, 82, 0, 22)
+open.Font = Enum.Font.SciFi
+open.Text = "OPEN"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+openmain.Visible = false
+main.Visible = true
+end)
